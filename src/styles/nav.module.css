@@ -1,0 +1,67 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #030307;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.logoContainer {
+  flex-basis: 20%;
+}
+
+.links {
+  flex-basis: 35%;
+  display: flex;
+  justify-content: space-between;
+  color: #7f7f90;
+}
+
+.link {
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.link svg {
+  margin-left: 5px;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+.btns {
+  flex-basis: 15%;
+  display: flex;
+  /* justify-content: space-between; */
+  color: #7f7f90;
+}
+
+.btns button {
+  font-size: 16px;
+  border: none;
+  border-radius: 99px;
+  padding: 12px 15px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btns button:hover {
+  transform: translateY(-3px);
+}
+
+.btns .signupBtn {
+  color: #fff;
+  background-color: #000000;
+  box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.7);
+}
+
+.btns .loginBtn {
+  color: #000;
+  background: linear-gradient(to right, #cdd6eb, #8c9094);
+}

@@ -1,0 +1,11 @@
+.landingpage {
+  background-color: #030307;
+  color: #fff;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.landingpage h2 {
+  color: #fff;
+}

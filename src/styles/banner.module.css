@@ -1,0 +1,122 @@
+/*  */
+
+.bannerContent {
+  padding: 10px;
+}
+
+.bannerMainText {
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+
+.bannerMainText h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  padding: 10px;
+  letter-spacing: 2px;
+  /* font-weight: normal; */
+}
+.bannerMainText h1 sup {
+  font-size: 3rem;
+  font-weight: 700;
+  font-weight: lighter;
+}
+
+.bannerMainText h1.imageBgText {
+  /* background-image: url("../assets/images/bannerImage.png");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent; */
+  color: linear-gradient(to right, #cdd6eb, #8c9094);
+}
+.bannerMainText h4 {
+  font-size: 3rem;
+  font-weight: 400;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+
+.subText {
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #7f7f90;
+}
+
+.subText p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.bannerBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.bannerBtns button {
+  font-size: 16px;
+  border: none;
+  border-radius: 99px;
+  padding: 12px 15px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.learnMoreBtn {
+  color: #fff;
+  background-color: #000000;
+  box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.7);
+}
+
+.getAppBtn {
+  color: #000;
+  background: linear-gradient(to right, #cdd6eb, #8c9094);
+}
+
+.bannerImage {
+  margin-top: 40px;
+  position: relative;
+  background-image: url("./../assets/images/bannerImage.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.phoneImageComtainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerImage .phoneImage {
+  width: 80%;
+  /* margin-top: 20px; */
+}
+
+.companies {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #7f7f90;
+  margin-bottom: 20px;
+}
+
+.companyLogos {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
