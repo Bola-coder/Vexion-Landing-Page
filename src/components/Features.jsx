@@ -1,6 +1,9 @@
 import styles from "./../styles/features.module.css";
 import ellipse from "./../assets/images/ellipseRing.png";
 import controlImage from "./../assets/images/controlImage.png";
+import downloadImage from "./../assets/images/downloadImage.png";
+import latencyImage from "./../assets/images/latencyImage.png";
+import speedImage from "./../assets/images/speedImage.png";
 const Features = () => {
   return (
     <div className={styles.features}>
@@ -30,11 +33,39 @@ const Features = () => {
               app.
             </p>
           </div>
-          2
         </div>
-        <div className={styles.gridContent3}>3</div>
-        <div className={styles.gridContent4}>4</div>
-        <div className={styles.gridContent5}>5</div>
+        <div className={styles.gridContent3}>
+          {" "}
+          <img src={latencyImage} />
+          <div className={styles.controlText}>
+            <h4>Check the latency</h4>
+            <p>
+              Test and graph your Internet latency across the world in seconds.
+            </p>
+          </div>
+        </div>
+        <div className={styles.gridContent4}>
+          {" "}
+          <img src={downloadImage} />
+          <div className={styles.controlText}>
+            <h4>Keep an eye on the transfer</h4>
+            <p>
+              Monitor how much transfer you have used and the download and
+              upload speeds.
+            </p>
+          </div>
+        </div>
+        <div className={styles.gridContent5}>
+          {" "}
+          <img src={speedImage} />
+          <div className={styles.controlText}>
+            <h4>Test the speed</h4>
+            <p>
+              Measure the speed and quality of your Internet connection using
+              our app.{" "}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
